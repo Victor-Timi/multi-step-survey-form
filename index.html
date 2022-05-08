@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Effect of Web 3.0 emergence on Web 2.0 - A Survey</title>
+	<link rel="stylesheet" href="./css/style.css">
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="icon" href="/images/tab-icon.png">
+	<script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="survey-top">
+        <header class="survey-title">Web 3.0 Inventory & effect</header>
+        <button type="menu">Save for later</button>     
+    </div>
+
+    <div class="form-progress-bar">
+        <div class="span focus" data-focus>
+            <p class="integer">1</p>
+            <span class="bar-1">Introduction</span>
+        </div>
+        <div class="span" data-focus>
+            <p class="integer">2</p>
+            <span class="bar-2">Web 3.0 Inventory</span>
+        </div>
+        <div class="span" data-focus>
+            <p class="integer">3</p><span class="bar-3">Your Thoughts</span>
+        </div>
+    </div>
+
+    <form class="multi-step-form" data-multi-step action="results.html" method="get">
+        <!-- First Step begins here -->
+        <main class="First-step" data-step>
+            <div class="biography-area">
+                <header class="title first-header">Introduction</header>
+                <div class="biography-area">
+                    <h3>Biography</h3>
+                    <div class="biography-content">
+                        <div class="name">
+                            <label for="name">Name: </label>
+                            <input type="text" name="Name" id="name">
+                        </div>
+        
+                        <div class="email">
+                            <label for="email">Email: </label>
+                            <input type="email" name="Email" id="email">
+                        </div>
+        
+                        <div class="age">
+                            <label for="age">Age: </label>
+                            <input type="number" min="1" max="200" name="Age" id="age">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="web3-content">
+                <h3>Web 3.0 Introduction</h3>
+                <!-- First Question -->
+                <div class="first-question">
+                    <div class="questions">
+                        <p>1.   What do you think about Web 3.0?</p>
+                        <div class="options">
+                            <div class="option opinion-1">
+                                <label for="1-a">It's the New Web</label>
+                                <input type="radio" name="What do you think about Web 3.0?" id="1-a" value="It's the New Web">
+                            </div>
+
+                            <div class="option opinion-1">
+                                <label for="1-b">It's just a hype</label>
+                                <input type="radio" name="What do you think about Web 3.0?" id="1-b" value="It's just a hype">
+                            </div>
+
+                            <div class="option opinion-1">
+                                <label for="1-c">Both</label>
+                                <input type="radio" name="What do you think about Web 3.0?" id="1-c" value="Both">
+                            </div>
+
+                            <div class="option opinion-1">
+                                <label for="1-d">None of the above</label>
+                                <input type="radio" name="What do you think about Web 3.0?" id="1-d" value="None of the above">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Second Question -->
+                <div class="second-question">
+                    <div class="questions">
+                        <p>2.   Do you think that Web 3.0 has the potential to take down Web 2.0?</p>
+
+                        <div class="options">
+                            <div class="option opinion-2">
+                                <label for="2-a">Yes</label>
+                                <input type="radio" name="Do you think that Web 3.0 has the potential to take down Web 2.0?" value="Yes" id="2-a">
+                            </div>
+
+                            <div class="option opinion-2">
+                                <label for="2-b">No</label>
+                                <input type="radio" name="Do you think that Web 3.0 has the potential to take down Web 2.0?" value="No" id="2-b">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Third Question -->
+                <div class="third-question">
+                    <div class="questions">
+                        <p>3.   Is Web 3.0 on the verge of becoming the dominant web in 5 years?</p>
+                        <div class="options">
+                            <div class="option opinion-3">
+                                <div class="option opinion-3">
+                                    <label for="3-a">Yes</label>
+                                    <input type="radio" name="Is Web 3.0 on the verge of being the dominant web in 5 years?" value="Yes" id="3-a">
+                                </div>
+
+                                <div class="option opinion-3">
+                                    <label for="3-b">No</label>
+                                    <input type="radio" name="Is Web 3.0 on the verge of being the dominant web in 5 years?" value="No" id="3-b">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fourth Question -->
+                <div class="open-ended">
+                    <label for="4">4.   What do you see as a drawback to its implementation?</label>
+                    <textarea name="If yes, what do you see as a drawback to its implementation?" id="4" cols="30" rows="10"></textarea>
+                </div>
+                    <!-- Fifth Question -->
+                <div class="fifth-question">
+                    <label for="5">5.   On a scale of 1 - 10, how long do you think it will take Web 3 to become a very dominant Web?</label>
+                    <div class="range">
+                        <div class="field">
+                        <div class="value left">0</div>
+                        <input class="range" type="range" min="0" max="10" id="5" value="100" steps="1">
+                        <div class="value right">10</div> 
+                        </div>
+                    </div>
+                    <small>
+                        Note: 1 - Less than six months, 2 - A year, 3 - Less than two years, 4 - Less than five years, 5 - Less than a decade, 6 - Less  than two decades, 7 - Less than five decades, 8 - Less than a century, 9 - More  than a Century, 10 - Forever.
+                    </small>
+                </div>
+                <div class="submit-btn">
+                    <button class="btn" type="button" data-next=>Next</button>
+                </div>
+            </div>
+        </main>
+        <!-- this is second step -->
+        <main class="second-step" data-step>
+           <div class="Web3-inventory">
+               <h3>Web 3.0 Inventory</h3>
+               <!-- sixth Question -->
+                <div class="question sixth-question">
+                    <p>6.   If Web3 eventually takes effect, do you think web 3.0 can perfectly fit in educational institutions?</p>
+                    <div class="option">
+                        <label for="6a">Yes</label>
+                        <input type="radio" id="6a" name="If Web3 eventually takes its effect, do you think web 3.0 can perfectly fit in educational institutions?" value="Yes">
+                    </div>
+                    <div class="option">
+                        <label for="6b">No</label>
+                        <input type="radio" id="6b" name="If Web3 eventually takes its effect, do you think web 3.0 can perfectly fit in educational institutions?" value="No">
+                    </div>
+                </div>
+                <!-- Seventh Question -->
+                <div class="open-ended">
+                    <label for="7">7.   What's your take on the impact of Web 3.0 on big data companies, like Meta Twitter, Google, Netflix, etc.?</label>
+                    <textarea name="What's your take on the impact of Web 3.0 on big data companies?" id="7" cols="30" rows="10"></textarea>
+                </div>
+                <!-- eight  question -->
+                <div class="question eight-question">
+                    <p>8.   On the 21st of December 2021, Jack Dorsey, the  founder of Twitter tweeted, "You do not own Web3, the VCs(Venture Capitalists) and their LPs(Limited Partners) do. It will never escape their incentives.  It is ultimately a centralized entity with a different label", Do you agree with him?</p>
+                    <div class="option">
+                        <label for="8a">Yes</label>
+                        <input type="radio" name="On the 21st of December 2021, Jack Dorsey, the  founder of Twitter tweeted, You do not own Web3, the VCs(Venture Capitalists) and their LPs(Limited Partners) do. It will never escape their incentives.  It is ultimately a centralized entity with a different label, Do you agree with him?" id="8a" value="yes">
+                    </div>
+                    <div class="option">
+                        <label for="8b">No</label>
+                        <input type="radio" name="On the 21st of December 2021, Jack Dorsey, the  founder of Twitter tweeted, You do not own Web3, the VCs(Venture Capitalists) and their LPs(Limited Partners) do. It will never escape their incentives.  It is ultimately a centralized entity with a different label, Do you agree with him?" id="8b" value="no">
+                    </div>
+                </div>
+                <!-- ninth Question -->
+                <div class="open-ended">
+                    <label for="9">9.   What do you think about Jack Dorsey's statement?</label>
+                    <textarea name="What's your take on the impact of Web 3.0 on big data companies?" id="9" cols="30" rows="10"></textarea>
+                </div>
+                <div class="submit-btn">
+                    <button class="btn" type="button" data-previous>Previous</button>
+                    <button class="btn" type="button" data-next>Next</button>
+                </div>
+            </div> 
+        </main>
+        <!-- this is third step -->
+        <main class="third-step" data-step>
+            <div class="limitations">
+                <h3>Your Thoughts</h3>
+                <div class="questions">
+                    <!-- tenth question -->
+                    <div class="question tenth-question">
+                        <p>10.  Do you agree that Web 2.0 is better off without web 3.0?</p>
+                        <div class="option">
+                            <label for="10a">Strongly Agree</label>
+                            <input type="radio" id="10a" name="Do you agree that Web 2.0 is better of without web 3.0?" value="strongly agree">
+                        </div>
+                        <div class="option">
+                            <label for="10b">Agree</label>
+                            <input type="radio" id="10b" name="Do you agree that Web 2.0 is better of without web 3.0?" value="Agree">
+                        </div>
+                        <div class="option">
+                            <label for="10c">Undecided</label>
+                            <input type="radio" id="10c" name="Do you agree that Web 2.0 is better of without web 3.0?" value="Undecided">
+                        </div>
+                        <div class="option">
+                            <label for="10d">Disagree</label>
+                            <input type="radio" id="10d" name="Do you agree that Web 2.0 is better of without web 3.0?" value="Disagree">
+                        </div>
+                        <div class="option">
+                            <label for="10e">Strongly Disagree</label>
+                            <input type="radio" id="10e" name="Do you agree that Web 2.0 is better of without web 3.0?" value="Strongly Disagree">
+                        </div>
+                    </div>
+                    <!-- eleventh question -->
+                    <div class="open-ended">
+                        <label for="11">11. Up till this day, web 2.0 has encouraged a growth in User Experience. What can you say about web 3.0 getting through its User Experience limitation such as Speed, Scalability, Ease of Use, Cost of gas fee, and duration for an update?</label>
+                        <textarea name="Up till this day, web 2.0 has encouraged a growth in User Experience. What can you say about web 3.0 getting through its User Experience limitation such as Speed, Scalability, Ease of Use, Cost of gas fee, and duration for an update?" id="11" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="question twelveth-question">
+                        <p>12.  As for the limitations of both Web's, do you agree that web 3.0 is still much better than web 2.0?</p>
+                        <div class="option">
+                            <label for="12a">Strongly Agree</label>
+                            <input type="radio" id="12a" name="As for the limitations of both Web's, do you agree that web 3.0 is still much better than web 2.0?" value="strongly agree">
+                        </div>
+                        <div class="option">
+                            <label for="12b">Agree</label>
+                            <input type="radio" id="12b" name="As for the limitations of both Web's, do you agree that web 3.0 is still much better than web 2.0?" value="Agree">
+                        </div>
+                        <div class="option">
+                            <label for="12c">Undecided</label>
+                            <input type="radio" id="12c" name="As for the limitations of both Web's, do you agree that web 3.0 is still much better than web 2.0?" value="Undecided">
+                        </div>
+                        <div class="option">
+                            <label for="12d">Disagree</label>
+                            <input type="radio" id="12d" name="As for the limitations of both Web's, do you agree that web 3.0 is still much better than web 2.0?" value="Disagree">
+                        </div>
+                        <div class="option">
+                            <label for="12e">Strongly Disagree</label>
+                            <input type="radio" id="12e" name="As for the limitations of both Web's, do you agree that web 3.0 is still much better than web 2.0?" value="Strongly Disagree">
+                        </div>
+                    </div>
+                    <!-- thirteenth question -->
+                    <div class="question thirteenth-question">
+                        <p>13.  Do we need Web 3.0?</p>
+                        <div class="option">
+                            <label for="6a">Yes</label>
+                            <input type="radio" id="13a" name="Do we really need Web 3.0?" value="Yes">
+                        </div>
+                        <div class="option">
+                            <label for="6b">No</label>
+                            <input type="radio" id="13b" name="Do we really need Web 3.0?" value="No">
+                        </div>
+                    </div>
+                    <!-- fourteenth question -->
+                    <div class="open-ended">
+                        <label for="14">14. Put down your opinion about web 3.0</label>
+                        <textarea name="Put down your opinion about web 3.0" id="14" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="submit-btn">
+                <button class="btn" type="button" data-previous>Previous</button>
+                <button class="btn" type="submit">Submit</button>
+            </div>
+        </main>
+    </form>
+</body>
+</html>

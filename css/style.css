@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600&display=swap");
+/* 
+Default Styling
+*/
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* 
+General Styling
+*/
+:root {
+  --background-color: #333;
+  --color: #e3e3e3;
+  --padding: .6rem .35rem;
+}
+
+body {
+  font-family: 'Arimo', sans-serif;
+  color: #333;
+  font-size: .9rem;
+  margin-bottom: 2rem;
+}
+
+button {
+  border: 1px solid #dadada;
+  font-size: .9rem;
+  background-color: #f4f3f3;
+  padding: .5rem .4rem;
+  border-radius: .2rem;
+  font-family: inherit;
+  font-weight: bold;
+  color: var(--background-color);
+  cursor: pointer;
+  margin: 1rem 0;
+}
+
+input, textarea {
+  outline: none;
+}
+
+.survey-top {
+  padding: .7rem .2rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.survey-top .survey-title {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: 20%;
+}
+
+.form-progress-bar {
+  background-color: #f4f3f3;
+  padding: 1rem .4rem;
+  font-size: .85rem;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+  gap: 4rem;
+  color: var(--background-color);
+}
+.span{
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+  opacity: .5;
+}
+.span:first-child{
+  margin-left: 10%;
+}
+.focus{
+  opacity: 1;
+}
+.integer{
+  background-color: #333;
+  color: #fff;
+  padding: .3rem;
+  border-radius: .5rem;
+}
+
+main{
+  display: none;
+}
+
+.active{
+  display: block;
+}
+form {
+  padding: 0 2rem;
+}
+
+form input {
+  outline: none;
+  border: 1px solid #dadada;
+}
+
+form p, form label {
+  width: 65%;
+  line-height: 1.5rem;
+  font-weight: bold;
+  margin: .7rem 0;
+}
+
+form .first-header {
+  margin-top: 4rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+form .biography-area {
+  margin: 2rem 0;
+}
+
+form h3 {
+  font-size: 1.1rem;
+  line-height: 2rem;
+  border-bottom: 1px solid #ebebeb;
+  margin-bottom: 1rem;
+}
+
+form .biography-content {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #333;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+}
+
+form .biography-content input {
+  border: 1px solid #dadada;
+  border-radius: .25em;
+  padding: .25em;
+}
+
+form .web3-content .questions p, form .Web3-inventory .questions p, form .limitations .questions p {
+  font-weight: bold;
+  margin: .6rem 0;
+}
+
+form .web3-content .option, form .Web3-inventory .option, form .limitations .option {
+  display: inline;
+  margin: .5em 2rem;
+  margin-left: 0;
+}
+
+form .web3-content label, form .Web3-inventory label, form .limitations label {
+  margin-right: .5rem;
+}
+
+form .open-ended {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: .6rem 0rem;
+  font-weight: bold;
+}
+
+form .open-ended textarea {
+  margin: .7rem 0;
+  width: 50%;
+  border: 1px solid #adacac;
+}
+
+form .fifth-question {
+  margin-top: .6rem;
+  font-weight: bold;
+}
+
+form .range {
+  height: 80px;
+  width: 380px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0 65 0 45;
+}
+
+form .range .slider-value {
+  position: relative;
+  width: 100%;
+}
+
+form .range .field {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: cover;
+      -ms-flex-align: cover;
+          align-items: cover;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  margin-top: 1.5rem;
+  margin-left: .8rem;
+}
+
+form .range .field ::-webkit-slider-thumb {
+  background-color: #333;
+  color: #333;
+  border: none;
+  outline: none;
+  border: none;
+}
+
+form .range .field input {
+  -webkit-appearance: none;
+  height: 3px;
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+form .range .field .value {
+  position: absolute;
+  font-size: 18px;
+  font-weight: 600;
+  color: #807f7f;
+}
+
+form .range .field .left {
+  left: -10px;
+  top: -8px;
+}
+
+form .range .field .right {
+  right: -20px;
+  top: -8px;
+}
+
+form small {
+  color: #7e7e7e;
+  display: block;
+  width: 65%;
+  margin: 1rem 0;
+}
+
+form .submit-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}
+/*# sourceMappingURL=style.css.map */
